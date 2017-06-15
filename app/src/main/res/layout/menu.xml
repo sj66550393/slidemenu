@@ -20,7 +20,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/milk"
+            android:src="@mipmap/milk"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/basketball"
+            android:src="@mipmap/basketball"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/book"
+            android:src="@mipmap/book"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/game"
+            android:src="@mipmap/game"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/mouse"
+            android:src="@mipmap/mouse"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/rocket"
+            android:src="@mipmap/rocket"
             />
         <TextView
             android:layout_width="wrap_content"

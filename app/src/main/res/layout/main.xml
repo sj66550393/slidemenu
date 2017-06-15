@@ -18,7 +18,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:src="@drawable/head"/>
+        android:src="@mipmap/head"/>
 
     <ImageView
         android:layout_below="@id/view_title"
@@ -26,6 +26,6 @@
         android:layout_height="match_parent"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:scaleType="fitXY"
-        android:src="@drawable/content"/>
+        android:src="@mipmap/content"/>
 
    </anne.com.sj.slidemenu.MainView>
