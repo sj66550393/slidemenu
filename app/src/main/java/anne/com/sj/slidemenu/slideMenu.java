@@ -74,12 +74,14 @@ public class slideMenu extends FrameLayout {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
+        Log.d(TAG , "onTouchEvent");
         mViewDragHelper.processTouchEvent(event);
         return true;
     }
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
+        Log.d(TAG , "onInterceptTouchEvent");
         return mViewDragHelper.shouldInterceptTouchEvent(ev);
     }
 
@@ -160,6 +162,7 @@ public class slideMenu extends FrameLayout {
         final int height = getHeight();
         final int clipLeft = 0;
         int clipRight = mMainView.getLeft();
+        //优化绘制View
         if (child == mMenuView) {
             canvas.clipRect(clipLeft, 0, clipRight, height);//剪裁显示的区域
         }

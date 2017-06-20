@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<anne.com.sj.slidemenu.MainView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -28,4 +28,4 @@
         android:scaleType="fitXY"
         android:src="@mipmap/content"/>
 
-   </anne.com.sj.slidemenu.MainView>
+   </RelativeLayout>
